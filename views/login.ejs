@@ -1,0 +1,18 @@
+
+<%- include('header') %>
+<%- include('navbar') %>
+<div class="container">
+    <h2>Login</h2>
+    <form method="POST" action="/auth/login">
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" class="form-control" id="username" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+        <a href="/auth/signup" class="btn btn-link">Create an Account</a>
+    </form>
+</div>

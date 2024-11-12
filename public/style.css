@@ -1,0 +1,185 @@
+/* General Body and Font Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for Centering Content */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Custom Navbar Styling */
+.navbar-custom {
+    background-color: #000;  /* Black background */
+    color: #fff;             /* White text color */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #fff;             /* White link color */
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #ffa500;          /* Orange color on hover for links */
+}
+
+.navbar-custom .navbar-toggler-icon {
+    filter: invert(1);       /* Make the toggler icon visible on a dark background */
+}
+
+
+
+/* Home Page Styling */
+.home-page {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.home-page h1 {
+    font-size: 3em;
+    color: #333;
+}
+
+.home-page p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Login Form Styling */
+.login-form {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #218838;
+}
+
+.login-form .create-account {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-form .create-account a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-form .create-account a:hover {
+    text-decoration: underline;
+}
+
+/* Signup Form Styling */
+.signup-form {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Service Page Styling */
+.service-page {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.service-page h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.service-page .upload-container {
+    margin-top: 50px;
+}
+
+.upload-container input[type="file"] {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.upload-container button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Alert Messages */
+.alert {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+}

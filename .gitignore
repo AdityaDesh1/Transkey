@@ -1,0 +1,9 @@
+# Ignore dependency folder
+node_modules/
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore upload files (if you don’t want them tracked)
+uploads/
+
